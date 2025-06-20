@@ -6,21 +6,25 @@
 }
 
 :root {
-    --primary-color: #1a365d;
-    --primary-light: #2d5a87;
-    --primary-dark: #0f2a44;
-    --accent-color: #2b6cb0;
-    --accent-light: #4299e1;
-    --text-primary: #1a202c;
-    --text-secondary: #4a5568;
-    --text-light: #718096;
-    --background-primary: #ffffff;
-    --background-secondary: #f7fafc;
-    --background-accent: #edf2f7;
-    --border-color: #e2e8f0;
-    --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    /* Business-focused color palette with white header */
+    --primary-color: #2563eb;        /* Modern blue for accents */
+    --primary-light: #3b82f6;        /* Lighter blue for hover states */
+    --primary-dark: #1d4ed8;         /* Darker blue for active states */
+    --accent-color: #059669;         /* Green from logo */
+    --accent-light: #10b981;         /* Lighter green for hover */
+    --text-primary: #111827;         /* Dark gray for primary text */
+    --text-secondary: #4b5563;       /* Medium gray for secondary text */
+    --text-light: #6b7280;           /* Light gray for muted text */
+    --text-nav: #374151;             /* Navigation text color */
+    --background-primary: #ffffff;    /* White background */
+    --background-secondary: #f9fafb;  /* Very light gray background */
+    --background-accent: #f3f4f6;     /* Light gray accent background */
+    --border-color: #e5e7eb;          /* Light border color */
+    --header-background: #ffffff;     /* White header background */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-header: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 }
 
 body {
@@ -39,13 +43,16 @@ body {
 
 /* Header styles */
 header {
-    background-color: var(--primary-color);
-    box-shadow: var(--shadow-md);
+    background-color: var(--header-background);
+    box-shadow: var(--shadow-header);
     border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
 }
 
 .navbar .container {
@@ -56,7 +63,7 @@ header {
 }
 
 .navbar-brand h1 {
-    color: white;
+    color: var(--text-primary);
     font-size: 1.75rem;
     font-weight: 700;
     letter-spacing: -0.025em;
@@ -64,40 +71,44 @@ header {
 
 .navbar-nav {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.25rem;
 }
 
 .nav-link {
-    color: white;
+    color: var(--text-nav);
     text-decoration: none;
     font-weight: 500;
-    padding: 0.75rem 1.25rem;
+    padding: 0.75rem 1rem;
     border-radius: 8px;
     transition: all 0.2s ease;
-    font-size: 0.95rem;
+    font-size: 0.9rem;
+    position: relative;
 }
 
 .nav-link:hover {
-    background-color: var(--primary-light);
+    background-color: var(--background-accent);
+    color: var(--primary-color);
     transform: translateY(-1px);
 }
 
 .nav-link.active {
-    background-color: var(--primary-light);
+    background-color: var(--primary-color);
+    color: white;
     box-shadow: var(--shadow-sm);
 }
 
 .navbar-brand a {
-    color: white;
+    color: var(--text-primary);
     text-decoration: none;
+    display: block;
 }
 
 .navbar-brand a:hover {
-    color: white;
+    color: var(--text-primary);
 }
 
 .navbar-brand .logo {
-    height: 40px;
+    height: 45px;
     width: auto;
     transition: opacity 0.2s ease;
 }
@@ -121,7 +132,7 @@ header {
 .hamburger-line {
     width: 25px;
     height: 3px;
-    background-color: white;
+    background-color: var(--text-nav);
     margin: 3px 0;
     transition: all 0.3s ease;
     border-radius: 2px;
@@ -310,8 +321,8 @@ header {
 
 /* Footer */
 footer {
-    background-color: var(--primary-dark);
-    color: white;
+    background-color: var(--background-accent);
+    color: var(--text-secondary);
     text-align: center;
     padding: 3rem 0;
     border-top: 1px solid var(--border-color);
@@ -324,12 +335,13 @@ footer p {
 
 /* Page header styles */
 .page-header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-light) 100%);
-    color: white;
+    background: linear-gradient(135deg, var(--background-secondary) 0%, var(--background-accent) 100%);
+    color: var(--text-primary);
     padding: 5rem 0 3rem;
     text-align: center;
     position: relative;
     overflow: hidden;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .page-header::before {
@@ -772,10 +784,12 @@ footer p {
         top: 100%;
         left: 0;
         right: 0;
-        background: #337ab7;
+        background: var(--background-primary);
+        border: 1px solid var(--border-color);
+        border-top: none;
         flex-direction: column;
         padding: 1rem 0;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        box-shadow: var(--shadow-md);
         z-index: 1000;
     }
     
@@ -785,10 +799,11 @@ footer p {
     
     .nav-link {
         padding: 0.8rem 2rem;
-        border-bottom: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 1px solid var(--border-color);
         text-align: left;
         width: 100%;
         border-radius: 0;
+        color: var(--text-nav);
     }
     
     .nav-link:last-child {
