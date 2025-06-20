@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
     const navbarNav = document.querySelector('.navbar-nav');
+    const socialLinks = document.querySelector('.social-links');
     
     if (mobileMenuToggle && navbarNav) {
         // Toggle mobile menu
