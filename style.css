@@ -96,6 +96,16 @@ header {
     color: white;
 }
 
+.navbar-brand .logo {
+    height: 40px;
+    width: auto;
+    transition: opacity 0.2s ease;
+}
+
+.navbar-brand .logo:hover {
+    opacity: 0.9;
+}
+
 /* Mobile menu toggle button */
 .mobile-menu-toggle {
     display: none;
