@@ -1,155 +1,155 @@
-# Ferte Website
+# ferteウェブサイト
 
-A comprehensive professional cybersecurity services website built for GitHub Pages, inspired by the original ferte.jp. This site showcases security engineering and technical support services with a modern, responsive design.
+本格的なサイバーセキュリティサービス企業のウェブサイトです。GitHub Pagesで動作し、オリジナルのferte.jpにインスパイアされたモダンでレスポンシブなデザインを特徴とします。
 
-## 🌟 Features
+## 🌟 主な機能
 
-### Design & User Experience
-- **Fully responsive design** optimized for desktop, tablet, and mobile devices
-- **Mobile-first navigation** with hamburger menu for seamless mobile experience
-- **Professional blue color scheme** (#337ab7) matching the original ferte.jp design
-- **Smooth animations** including fade-in effects and hover transitions
-- **Accessibility-focused** with proper ARIA labels and semantic HTML
+### デザイン・ユーザー体験
+- **完全レスポンシブデザイン** - デスクトップ、タブレット、スマートフォンに最適化
+- **モバイルファーストナビゲーション** - ハンバーガーメニューでスムーズなモバイル体験
+- **プロフェッショナルな青色テーマ** - オリジナルferte.jpと同じ色調（#337ab7）
+- **スムーズアニメーション** - フェードイン効果とホバートランジション
+- **アクセシビリティ重視** - 適切なARIAラベルとセマンティックHTML
 
-### Content Structure
-- **Multi-page architecture** with dedicated sections for different content types
-- **Comprehensive service descriptions** covering ZAP support, cyber attack response, and consulting
-- **Detailed company information** including business details and specialties
-- **Complete privacy policy** following Japanese data protection standards
-- **Rich media content** with detailed news articles and expert commentary
+### コンテンツ構造
+- **マルチページアーキテクチャ** - コンテンツタイプ別の専用セクション
+- **包括的なサービス説明** - ZAPサポート、サイバー攻撃対応、コンサルティング
+- **詳細な会社情報** - 事業内容と専門分野を含む企業詳細
+- **完全なプライバシーポリシー** - 日本のデータ保護基準に準拠
+- **充実したメディアコンテンツ** - 詳細なニュース記事と専門家解説
 
-### Technical Features
-- **Modern CSS Grid and Flexbox** layouts for optimal responsive behavior
-- **Vanilla JavaScript** for interactive features without framework dependencies
-- **SEO-optimized** structure with proper meta tags and semantic markup
-- **Fast loading** with optimized assets and minimal external dependencies
+### 技術的特徴
+- **モダンCSS Grid・Flexbox** - 最適なレスポンシブ動作のためのレイアウト
+- **Vanilla JavaScript** - フレームワーク依存なしのインタラクティブ機能
+- **SEO最適化** - 適切なメタタグとセマンティックマークアップ
+- **高速読み込み** - 最適化されたアセットと最小限の外部依存
 
-## 📱 Mobile Optimization
+## 📱 モバイル最適化
 
-The website includes comprehensive mobile optimizations:
-- **Hamburger menu navigation** that transforms seamlessly on smaller screens
-- **Touch-friendly interface** with appropriately sized tap targets
-- **Optimized typography** that scales properly across all device sizes
-- **Improved content hierarchy** for better mobile readability
+ウェブサイトには包括的なモバイル最適化が含まれています：
+- **ハンバーガーメニューナビゲーション** - 小画面でシームレスに変換
+- **タッチフレンドリーインターフェース** - 適切なサイズのタップターゲット
+- **最適化されたタイポグラフィ** - 全デバイスサイズで適切にスケール
+- **改善されたコンテンツ階層** - モバイルでの読みやすさ向上
 
-## 🚀 Live Demo
+## 🚀 ライブデモ
 
-Visit the live website: **https://ykame.github.io/ferte-jp**
+ライブウェブサイトをご覧ください：**https://ykame.github.io/ferte-jp**
 
-## 📁 Complete File Structure
+## 📁 完全なファイル構造
 
 ```
 ferte-jp/
-├── index.html              # Homepage with services and news
-├── about.html              # Company information and specialties
-├── policy.html             # Privacy policy and legal information
-├── style.css               # Complete responsive stylesheet
-├── script.js               # Interactive features and mobile navigation
-├── _config.yml             # GitHub Pages configuration
-├── README.md              # Project documentation
-└── news/                  # News articles directory
-    ├── tv-asahi-goodmorning-202406.html      # TV appearance details
-    ├── tbs-marutto-saturday.html             # Media expert commentary
-    ├── nikkei-xtech-article.html             # Technical article publication
-    ├── mainichi-interview.html               # Newspaper interview coverage
-    └── nikkei-sangyo-owasp.html             # OWASP ZAP expertise article
+├── index.html              # サービスとニュースのホームページ
+├── about.html              # 会社情報と専門分野
+├── policy.html             # プライバシーポリシーと法的情報
+├── style.css               # 完全なレスポンシブスタイルシート
+├── script.js               # インタラクティブ機能とモバイルナビゲーション
+├── _config.yml             # GitHub Pages設定
+├── README.md              # プロジェクトドキュメント
+└── news/                  # ニュース記事ディレクトリ
+    ├── tv-asahi-goodmorning-202406.html      # テレビ出演詳細
+    ├── tbs-marutto-saturday.html             # メディア専門家解説
+    ├── nikkei-xtech-article.html             # 技術記事掲載
+    ├── mainichi-interview.html               # 新聞インタビュー取材
+    └── nikkei-sangyo-owasp.html             # OWASP ZAP専門記事
 ```
 
-## 🎯 Page Details
+## 🎯 ページ詳細
 
-### Homepage (`index.html`)
-- **Hero section** with three main service offerings
-- **Company features** highlighting nationwide support and expertise
-- **News section** with links to detailed articles
-- **Responsive navigation** with mobile hamburger menu
+### ホームページ（`index.html`）
+- **ヒーローセクション** - 3つの主要サービス提供内容
+- **会社の特徴** - 全国対応と専門性のハイライト
+- **ニュースセクション** - 詳細記事へのリンク
+- **レスポンシブナビゲーション** - モバイルハンバーガーメニュー
 
-### About Page (`about.html`)
-- **Company information table** with founding details and contact
-- **Business content sections** detailing four main service areas
-- **Specialties grid** showcasing technical expertise areas
-- **Professional layout** optimized for all devices
+### 会社概要ページ（`about.html`）
+- **会社情報テーブル** - 設立詳細と連絡先
+- **事業内容セクション** - 4つの主要サービス分野詳細
+- **専門分野グリッド** - 技術専門分野の展示
+- **プロフェッショナルレイアウト** - 全デバイス最適化
 
-### Privacy Policy (`policy.html`)
-- **Comprehensive privacy policy** following Japanese standards
-- **Structured legal content** with clear section headers
-- **Contact information** for privacy-related inquiries
-- **Readable formatting** with proper typography hierarchy
+### プライバシーポリシー（`policy.html`）
+- **包括的なプライバシーポリシー** - 日本基準準拠
+- **構造化された法的コンテンツ** - 明確なセクション見出し
+- **プライバシー関連お問い合わせ情報**
+- **読みやすい書式** - 適切なタイポグラフィ階層
 
-### News Articles (`news/*.html`)
-Each news article includes:
-- **Professional article layout** with gradient headers
-- **Detailed expert commentary** on cybersecurity topics
-- **Technical insights** explained for general audiences
-- **Related services information** linking back to main offerings
-- **Consistent navigation** with back-to-main-site functionality
+### ニュース記事（`news/*.html`）
+各ニュース記事には以下が含まれます：
+- **プロフェッショナルな記事レイアウト** - グラデーションヘッダー
+- **詳細な専門家解説** - サイバーセキュリティトピック
+- **技術的洞察** - 一般読者向けに説明
+- **関連サービス情報** - メインサービスへのリンク
+- **一貫したナビゲーション** - メインサイトへの戻り機能
 
-## 🛠 Setup for GitHub Pages
+## 🛠 GitHub Pages セットアップ
 
-### Quick Setup
-1. **Fork or clone** this repository
-2. **Enable GitHub Pages** in repository Settings > Pages
-3. **Select source**: Deploy from a branch (main)
-4. **Access your site** at `https://yourusername.github.io/ferte-jp`
+### クイックセットアップ
+1. **リポジトリをフォークまたはクローン**
+2. **GitHub Pagesを有効化** - リポジトリ設定 > Pages
+3. **ソースを選択** - ブランチから展開（main）
+4. **サイトにアクセス** - `https://yourusername.github.io/ferte-jp`
 
-### Custom Domain (Optional)
-1. Add a `CNAME` file with your domain name
-2. Configure DNS settings to point to GitHub Pages
-3. Enable HTTPS in repository settings
+### カスタムドメイン（オプション）
+1. ドメイン名を含む`CNAME`ファイルを追加
+2. DNS設定をGitHub Pagesに向けるよう設定
+3. リポジトリ設定でHTTPSを有効化
 
-## 🎨 Customization Guide
+## 🎨 カスタマイズガイド
 
-### Content Updates
-- **Homepage content**: Edit service descriptions in `index.html`
-- **Company information**: Update details in `about.html`
-- **News articles**: Add new articles to the `news/` directory
-- **Contact information**: Modify email and address across all pages
+### コンテンツ更新
+- **ホームページコンテンツ**: `index.html`のサービス説明を編集
+- **会社情報**: `about.html`の詳細を更新
+- **ニュース記事**: `news/`ディレクトリに新しい記事を追加
+- **連絡先情報**: 全ページのメールと住所を変更
 
-### Design Modifications
-- **Color scheme**: Update CSS custom properties in `style.css`
-- **Typography**: Modify font families and sizes in the base styles
-- **Layout**: Adjust grid and flexbox properties for different arrangements
-- **Animations**: Customize transition timing and effects in `script.js`
+### デザインの変更
+- **カラースキーム**: `style.css`のCSSカスタムプロパティを更新
+- **タイポグラフィ**: ベーススタイルのフォントファミリーとサイズを変更
+- **レイアウト**: 異なる配置のためのグリッドとフレックスボックスプロパティを調整
+- **アニメーション**: `script.js`のトランジションタイミングと効果をカスタマイズ
 
-### Adding New Pages
-1. Create new HTML file following existing template structure
-2. Update navigation links in all existing pages
-3. Add corresponding CSS styles if needed
-4. Test responsive behavior across devices
+### 新しいページの追加
+1. 既存のテンプレート構造に従って新しいHTMLファイルを作成
+2. 既存の全ページのナビゲーションリンクを更新
+3. 必要に応じて対応するCSSスタイルを追加
+4. 複数デバイスでレスポンシブ動作をテスト
 
-## 🔧 Technologies Used
+## 🔧 使用技術
 
-### Frontend
-- **HTML5** with semantic markup and accessibility features
-- **CSS3** including Grid, Flexbox, and custom properties
-- **Vanilla JavaScript** for interactive features and mobile navigation
-- **Responsive Web Design** principles with mobile-first approach
+### フロントエンド
+- **HTML5** - セマンティックマークアップとアクセシビリティ機能
+- **CSS3** - Grid、Flexbox、カスタムプロパティを含む
+- **Vanilla JavaScript** - インタラクティブ機能とモバイルナビゲーション
+- **レスポンシブWebデザイン** - モバイルファーストアプローチ
 
-### Development & Deployment
-- **GitHub Pages** for hosting and automatic deployment
-- **Git** for version control and collaboration
-- **Jekyll** (GitHub Pages default) for static site generation
-- **Markdown** for documentation
+### 開発・デプロイメント
+- **GitHub Pages** - ホスティングと自動デプロイメント
+- **Git** - バージョン管理とコラボレーション
+- **Jekyll**（GitHub Pagesデフォルト）- 静的サイト生成
+- **Markdown** - ドキュメント作成
 
-## 📊 Performance & Accessibility
+## 📊 パフォーマンス・アクセシビリティ
 
-- **Lightweight design** with minimal external dependencies
-- **Fast loading times** through optimized CSS and JavaScript
-- **Accessibility compliant** with proper ARIA labels and semantic structure
-- **SEO optimized** with meta tags and structured content hierarchy
-- **Cross-browser compatible** tested on modern browsers
+- **軽量デザイン** - 最小限の外部依存
+- **高速読み込み時間** - 最適化されたCSSとJavaScript
+- **アクセシビリティ準拠** - 適切なARIAラベルとセマンティック構造
+- **SEO最適化** - メタタグと構造化コンテンツ階層
+- **クロスブラウザ対応** - モダンブラウザでテスト済み
 
-## 🤝 Contributing
+## 🤝 貢献
 
-Feel free to submit issues, fork the repository, and create pull requests for improvements. When contributing:
-1. Follow the existing code style and structure
-2. Test responsive behavior on multiple devices
-3. Ensure accessibility standards are maintained
-4. Update documentation as needed
+改善のためのイシュー、リポジトリのフォーク、プルリクエストは歓迎します。貢献時は以下にご注意ください：
+1. 既存のコードスタイルと構造に従う
+2. 複数デバイスでレスポンシブ動作をテスト
+3. アクセシビリティ基準を維持
+4. 必要に応じてドキュメントを更新
 
-## 📄 License
+## 📄 ライセンス
 
-This project is open source and available under the MIT License.
+このプロジェクトはオープンソースで、MITライセンスの下で利用可能です。
 
 ---
 
-**Note**: This website is inspired by ferte.jp and created for demonstration purposes. All content is generated for portfolio/template use.
+**注記**: このウェブサイトはferte.jpにインスパイアされ、デモンストレーション目的で作成されました。すべてのコンテンツはポートフォリオ/テンプレート使用のために生成されています。
