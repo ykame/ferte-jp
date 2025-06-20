@@ -1,0 +1,27 @@
+# GitHub Pages Configuration
+title: Ferte - Professional Services
+description: Professional cybersecurity and IT support services
+url: ""
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+
+# Include files
+include:
+  - _pages
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name/
